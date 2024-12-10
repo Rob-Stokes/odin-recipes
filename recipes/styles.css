@@ -1,6 +1,47 @@
 *{
     font-family: Verdana, Georgia, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
     background-color: rgb(245, 241, 219);
+}
+
+h1{
+    color: rgb(217, 143, 45);
+    border: 3px solid rgb(217, 143, 45);
+    text-align: center;
+    width: 300px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.bakery{
+    color: rgb(217, 143, 45);
+    border: 3px solid rgb(217, 143, 45);
+    width: 500px;
+    margin-top: 20px;
+    padding: 5px;
+    justify-self: right;
+}
+
+h3{
+    border: 3px solid rgb(217, 143, 45);
+    padding: 5px;
+}
+
+ul{
+    background: white;
+    border: 3px solid black;
+    width: 400px;
+    list-style-position: inside;
+}
+
+.index-links{
+    font-size: 18px;
+    color: rgb(217, 143, 45);
+    padding: 10px;
+    margin: 1em;
 }
 
 #button-1{
@@ -19,10 +60,6 @@ h2{
 
 p{
     color: blue;
-}
-
-ul{
-    color: red;
 }
 
 ol{
