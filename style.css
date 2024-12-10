@@ -30,11 +30,35 @@ ul{
     list-style-position: inside;
 }
 
+.starters{
+    border: 3px solid rgb(217, 143, 45);
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    justify-self: left;
+}
+
+.mains{
+    border: 3px solid rgb(217, 143, 45);
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    justify-self: left;
+}
+
+.desserts{
+    border: 3px solid rgb(217, 143, 45);
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    justify-self: right;
+}
+
 .bakery{
     color: rgb(217, 143, 45);
     border: 3px solid rgb(217, 143, 45);
     width: 500px;
-    margin-top: 20px;
+    margin: 20px;
     padding: 5px;
     justify-self: right;
 }
